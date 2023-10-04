@@ -1,0 +1,19 @@
+{
+    "name": "itpathsolutions/theme_customizer",
+    "description": "Set your theme configuration and customize your theme",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itpathsolutions\\ThemeCustomizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dhanik Keraliya",
+            "email": "dhanikk@itpathsolutions.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
