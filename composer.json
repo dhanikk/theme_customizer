@@ -22,7 +22,7 @@
     "extra": {
         "laravel":{
             "providers":[
-                "\\Itpathsolutions\\ThemeCustomizer\\ThemeCustomizerServiceProvider"
+                "\\itpathsolutions\\theme_customizer\\ThemeCustomizerServiceProvider"
             ]
         }
     }
