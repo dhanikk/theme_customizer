@@ -1,6 +1,6 @@
 <?php
 
-namespace ThemeCustomizer;
+namespace Itpathsolutions\Themecustomizer;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 

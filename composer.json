@@ -1,11 +1,15 @@
 {
-    "name": "itpathsolutions/theme_customizer",
-    "description": "Set your theme configuration and customize your theme",
+    "name": "itpathsolutions/themecustomizer",
+    "description": "\"Set your theme configuration and customize your theme\"",
     "type": "library",
+    "require": {
+        "php": ">=5.8",
+        "illuminate/support": ">=5.4"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "itpathsolutions\\theme_customizer\\": "src/"
+            "Itpathsolutions\\Themecustomizer\\": "src/"
         }
     },
     "authors": [
@@ -14,16 +18,5 @@
             "email": "dhanikk@itpathsolutions.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.8",
-        "illuminate/support": ">=5.4"
-    },
-    "extra": {
-        "laravel":{
-            "providers":[
-                "\\itpathsolutions\\theme_customizer\\ThemeCustomizerServiceProvider"
-            ]
-        }
-    }
+    "minimum-stability": "dev"
 }
