@@ -18,5 +18,12 @@
             "email": "dhanikk@itpathsolutions.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel":{
+            "providers":[
+                "\\Itpathsolutions\\Themecustomizer\\ThemeCustomizerServiceProvider"
+            ]
+        }
+    }
 }
