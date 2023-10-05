@@ -15,5 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.8",
+        "illuminate/support": ">=5.4"
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "\\Itpathsolutions\\ThemeCustomizer\\ThemeCustomizerServiceProvider"
+            ]
+        }
+    }
 }
